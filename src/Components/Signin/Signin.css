@@ -1,0 +1,127 @@
+.Signin {
+    width: 100dvw;
+    height: 90dvh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(198, 66, 184);
+}
+
+.signin-cart {
+    width: 80%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.img-part {
+    width: 10%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5dvh;
+    border-right: 3px solid black;
+}
+
+.img-part span {
+    font-size: 32px;
+    width: 50%;
+    text-align: center;
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.in-cart {
+    width: 90%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5dvh;
+    align-items: center;
+    justify-content: center;
+}
+
+.in-cart h1 {
+    font-size: 38px;
+    font-size: 500;
+    font-family: 'Times New Roman', Times, serif;
+    color: #fff;
+}
+
+.in-cart button {
+    width: 75%;
+    height: 6dvh;
+    background: none;
+    border: none;
+    background-color: blueviolet;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.in-cart button:hover {
+    background-color: rebeccapurple;
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(138, 43, 226, 0.5);
+}
+
+.in-cart button:active {
+    transform: scale(0.95);
+    background-color: indigo;
+    box-shadow: 0 2px 8px rgba(75, 0, 130, 0.5);
+}
+
+.signin-input {
+    width: 90%;
+    height: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 2dvh;
+}
+
+.signin-input input:nth-child(1),
+.signin-input input:nth-child(2) {
+    width: 40%;
+    height: 5dvh;
+    background: none;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    padding-left: 15px;
+    font-size: 16px;
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 1px;
+}
+
+.signin-input input:nth-child(3),
+.signin-input input:nth-child(4),
+.signin-input input:nth-child(5) {
+    width: 83%;
+    height: 5dvh;
+    background: none;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    padding-left: 15px;
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 1px;
+}

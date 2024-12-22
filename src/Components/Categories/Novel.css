@@ -1,0 +1,84 @@
+.Novels {
+    width: 100dvw;
+    height: auto;
+    margin: 10dvh 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10dvh;
+}
+
+.Novels h1 {
+    font-size: 38px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 1dvw;
+}
+
+.Novels h1 span {
+    width: 40dvw;
+    border-bottom: 1px solid #000;
+}
+
+.novel-card {
+    width: 100dvw;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 5dvh;
+}
+
+.novel-cart {
+    width: 20dvw;
+    height: 60dvh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1dvh;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    padding: 2dvh 0;
+}
+
+.novel-cart b {
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    color: #000000;
+    margin: 3dvw;
+}
+
+.img-parts {
+    width: 90%;
+    height: 80%;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: rgb(22, 22, 22);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.novel-cart button {
+    width: 10dvw;
+    height: 8dvh;
+    background: none;
+    border: none;
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #000000;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.novel-cart button:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}

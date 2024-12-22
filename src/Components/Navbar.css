@@ -1,0 +1,59 @@
+.Navbar {
+    width: 100dvw;
+    height: 13dvh;
+    background-color: rgb(22, 22, 22);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 3dvw;
+}
+
+.Navbar img {
+    width: 5dvw;
+}
+
+.texts {
+    width: auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 4dvw;
+}
+
+.texts span a {
+    font-size: 18px;
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.right-cart {
+    display: flex;
+    align-items: center;
+    gap: 2dvw;
+}
+
+.right-cart img {
+    width: 1.5dvw;
+    cursor: pointer;
+}
+
+.search-panel {
+    width: 20dvw;
+    height: 4dvh;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.search-panel input {
+    width: 90%;
+    height: 100%;
+    background: none;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    padding: 0 1dvw;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 1.5px;
+}

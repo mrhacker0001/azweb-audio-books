@@ -1,0 +1,45 @@
+.Booksabout {
+    width: 100dvw;
+    height: 60dvh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5dvh;
+}
+
+.about-part {
+    width: 40dvw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2dvh;
+    padding: 0 3dvw;
+}
+
+.about-part h2 {
+    font-size: 28px;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.about-part p {
+    font-size: 18px;
+    width: 30dvw;
+    line-height: 26px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.img-part {
+    width: 60dvw;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-part img {
+    width: 18dvw;
+    height: 30dvh;
+}

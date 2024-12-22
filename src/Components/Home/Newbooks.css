@@ -1,0 +1,55 @@
+.Newbooks {
+    width: 100dvw;
+    height: 90dvh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Newbooks h1 {
+    font-size: 34px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    color: #000000;
+    margin: 3dvw;
+}
+
+.newaudio-part {
+    width: 100dvw;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 3dvw;
+}
+
+.audios-cart {
+    width: 20dvw;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2dvh;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.imgs-part {
+    width: 90%;
+    height: 70%;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: rgb(22, 22, 22);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imgs-part img {
+    width: 15dvw;
+    height: 30dvh;
+}

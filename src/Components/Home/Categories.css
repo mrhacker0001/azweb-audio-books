@@ -1,0 +1,73 @@
+.Categories {
+    width: 100dvw;
+    height: 75dvh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4dvh;
+    background-color: rgb(22, 22, 22);
+}
+
+.Categories h2 {
+    font-size: 28px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    color: #ffffff;
+    margin: 3dvw;
+    text-shadow: rgba(255, 255, 255, 0.35) 0px 5px 15px;
+}
+
+.carts {
+    width: 100dvw;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 3dvw;
+}
+
+.cart {
+    width: 23.5dvw;
+    height: 43dvh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2dvh;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.cart:hover {
+    box-shadow: rgba(255, 255, 255, 0.35) 0px 5px 15px;
+}
+
+.cart span {
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: rgba(255, 255, 255, 0.35) 0px 5px 15px;
+    color: #ffffff;
+}
+
+.cart p {
+    width: 90%;
+    font-size: 18px;
+    color: #ffffff;
+    line-height: 26px;
+    text-align: center;
+}
+
+.Categories button {
+    width: 10dvw;
+    height: 8dvh;
+    background: none;
+    border: none;
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #ffffff;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.Categories button:hover {
+    box-shadow: rgba(255, 255, 255, 0.35) 0px 5px 15px;
+}
