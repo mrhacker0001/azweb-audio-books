@@ -1,11 +1,10 @@
 import React from 'react'
 import Booksabout from "./Booksabout";
 import Categories from "./Categories";
-// import CustomAudioPlayer from "./CustomAudioPlayer";
 import Footer from "../Footer";
 import Navbar from "../Navbar";
 import Newbooks from "./Newbooks";
-// import audioFile from './audios/01. Imomning maneken qizi.mp3';
+import './Home.css'
 
 function Home() {
     return (
@@ -15,7 +14,6 @@ function Home() {
             <Categories />
             <Newbooks />
             <Footer />
-            {/* <CustomAudioPlayer audioSrc={audioFile} /> */}
         </div>
     )
 }

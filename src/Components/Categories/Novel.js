@@ -88,15 +88,7 @@ function Novel() {
                             </div>
                             <b>{item.name}</b>
                             <span>{item.author}</span>
-                            {item.parts && item.parts.length > 0 ? (
-                                item.parts.map((part, idx) => (
-                                    <button key={idx} onClick={() => handleListen(part)}>
-                                        {part.title}
-                                    </button>
-                                ))
-                            ) : (
-                                <button onClick={() => handleListen(item)}>Listen</button>
-                            )}
+                            <button onClick={() => handleListen(item)}>Listen</button>
                         </div>
                     ))}
                 </div>
